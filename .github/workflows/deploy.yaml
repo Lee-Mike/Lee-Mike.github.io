@@ -1,8 +1,8 @@
 name: Deploy pages
 on: push
-download: true
 jobs:
   deploy:
+    download: true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
